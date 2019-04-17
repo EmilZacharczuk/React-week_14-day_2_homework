@@ -30,7 +30,6 @@ class SongsContainer extends Component{
     return(
       <div className="songs-container">
       <h1>UK top 20 songs</h1>
-      <h2>List</h2>
       <SongsList data={this.state.songs}/>
       </div>
     )

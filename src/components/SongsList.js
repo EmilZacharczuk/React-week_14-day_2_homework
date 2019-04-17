@@ -9,9 +9,9 @@ const SongsList = ({data}) => {
     });
     return (
       <div className='song-list'>
-        <ul>
+        <ol>
           {songItems}
-        </ul>
+        </ol>
       </div>
     );
   }

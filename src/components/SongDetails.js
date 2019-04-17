@@ -3,10 +3,13 @@ import React from 'react';
 const SongDetails = (props) => {
   return (
     <div>
-      <h1>Song name:{props.song['im:name'].label}</h1>
+      <li>
+      <h4>Song name:{props.song['im:name'].label}</h4>
       <p>Artist:{props.song['im:artist'].label}</p>
+      <img src={props.song['im:image'][0].label}></img>
+      </li>
     </div>
   )
 }
 
-export default SongDetails
+export default SongDetails;
